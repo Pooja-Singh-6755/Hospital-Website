@@ -1,0 +1,734 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    nav {
+        height: 10vh;
+        width: 100vw;
+        background-color: #161e54;
+        position: fixed;
+        z-index: 98;
+    }
+    
+    nav ul {
+        float: right;
+        margin-top: -58px;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 0px 35px;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .right {
+        padding-top: 1vh;
+    }
+    
+    #logo {
+        height: 8vh;
+        padding: 0 50px;
+        border-radius: 50px;
+    }
+    
+    nav ul li a {
+        color: rgb(221, 130, 33);
+        font-size: 15px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+    }
+    
+    a .active,
+    a:hover {
+        background-color: blue;
+    }
+    
+    .checkbtn {
+        font-size: 5px;
+        color: white;
+        float: right;
+        line-height: 38px;
+        margin-right: 31px;
+        cursor: pointer;
+        display: none;
+    }
+    
+    #check {
+        display: none;
+    }
+    
+    section {
+        background-image: url(image2.jpg);
+        background-size: cover;
+        height: calc(100vh - 80px);
+    }
+    
+    .heading {
+        background-color: #e7e8ee;
+        color: #e94d00;
+        width: 100vw;
+        font-weight: bolder;
+        position: fixed;
+        z-index: 97;
+        box-shadow: 1px 1px 1px black;
+        height: 43px;
+        margin: 70px 0px;
+    }
+    
+    .heading h1 {
+        padding: 0 43vw;
+    }
+    /*container design*/
+    
+    .container {
+        height: 100vh;
+        width: 100vw;
+        padding: 0vw 0vw;
+        background-image: url("https://www.rajagirihospital.com/Userfiles/Poster/2bc5e43752c04d55904ea8db56579e96.jpg");
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    .contain-box {
+        background-color: #f5f9f9;
+    }
+    /* slider animation
+
+@keyframes slider_animation {
+    0% {
+        background-image: url("https://www.rkgovthospitalrajsamand.in/wp-content/uploads/2015/06/Qualified-Team-of-RK.png");
+    }
+    25% {
+        background-image: url("https://www.rkgovthospitalrajsamand.in/wp-content/uploads/2017/08/SNCU.png");
+    }
+    50% {
+        background-image: url("https://www.rkgovthospitalrajsamand.in/wp-content/uploads/2017/09/Bhamashah-Yojna.png");
+    }
+    75% {
+        background-image: url("https://www.rkgovthospitalrajsamand.in/wp-content/uploads/2017/09/CT-Scan.png");
+    }
+    90% {
+        background-image: url("https://www.rkgovthospitalrajsamand.in/wp-content/uploads/2017/08/1.png");
+    }
+}
+*/
+    /*treatment css*/
+    
+    .treatment {
+        width: 100vw;
+        height: 80vh;
+    }
+    
+    .treatment .easy {
+        width: 100vw;
+        height: 10vh;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #e94d00;
+        text-align: center;
+        justify-content: center;
+        padding: 1px 0px;
+    }
+    
+    .treatment .easy-steps {
+        width: 100vw;
+        font-weight: 900;
+        font-size: 3rem;
+        color: black;
+        text-align: center;
+        padding: 1px 0px;
+        height: 20vh;
+    }
+    
+    .card-container .easy-card {
+        height: 40vh;
+        width: 20vw;
+        margin: 14px;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 3px 6px 3px rgb(239, 231, 231);
+        border: 2px solid rgb(251, 248, 248);
+    }
+    
+    .treatment .card-container {
+        height: 30vh;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px solid rgb(239, 231, 231)
+    }
+    
+    .easy-card h1 {
+        font-size: 1.7rem;
+        font-weight: bolder;
+        color: #dc5816;
+        margin-top: 45px;
+    }
+    
+    .easy-card p {
+        font-size: 1rem;
+        color: black;
+        margin-top: 10px;
+    }
+    
+    .easy-card i {
+        font-size: 30px;
+        border: 2px solid rgb(240, 235, 235);
+        border-radius: 36px;
+        width: 50px;
+        height: 50px;
+        margin-top: 25px;
+        padding: 8px;
+        background-color: rgba(247, 238, 238, 0.944);
+    }
+    /*About page*/
+    
+    .about {
+        height: 80vh;
+        width: 100vw;
+        display: flex;
+    }
+    
+    .about .about-left {
+        height: 80vh;
+        width: 50vw;
+    }
+    
+    .about-left img {
+        height: 70vh;
+        width: 40vw;
+        margin: 34px 92px;
+    }
+    
+    .about .about-right {
+        height: 80vh;
+        width: 50vw;
+    }
+    
+    .about-right h1 {
+        font-weight: bolder;
+        color: #1e1558;
+        margin: 38px 89px;
+        font-size: 50px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .about-right p {
+        color: gray;
+        font-family: 'Noto Sans', sans-serif;
+        margin: 59px 82px;
+    }
+    
+    .appoint {
+        font-weight: bolder;
+        color: white;
+        background-color: #ff950eed;
+        height: 57px;
+        margin: -17px 77px;
+        width: 165px;
+        border-radius: 20px;
+        font-size: 14px;
+        cursor: pointer;
+        border: 2px #ff950eed;
+    }
+    /*our service*/
+    
+    .service {
+        width: 100vw;
+        height: 120vh;
+        background-color: #f5f8f9;
+    }
+    
+    .service .service-head {
+        width: 100vw;
+        height: 10vh;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #e94d00;
+        text-align: center;
+        justify-content: center;
+        padding: 1px 0px;
+    }
+    
+    .service .service-steps {
+        width: 100vw;
+        font-weight: 900;
+        font-size: 3rem;
+        color: black;
+        text-align: center;
+        padding: 1px 0px;
+        height: 15vh;
+    }
+    
+    .service-container .service-card {
+        height: 40vh;
+        width: 20vw;
+        margin: 14px;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 3px 6px 3px rgb(239, 231, 231);
+        border: 2px solid rgb(251, 248, 248);
+        cursor: pointer;
+        background-color: white;
+    }
+    
+    .service .service-container {
+        height: 45vh;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px solid rgb(239, 231, 231)
+    }
+    
+    .service-card h1 {
+        font-size: 1.7rem;
+        font-weight: bolder;
+        margin-top: 15px;
+        color: #323241;
+    }
+    
+    .service-card p {
+        font-size: 1rem;
+        margin-top: 10px;
+        color: grey;
+    }
+    
+    .card-img-top {
+        height: 74px;
+        width: 71px;
+        margin-top: 32px;
+    }
+    
+    .service-card:hover {
+        background-color: #dc5816;
+        color: white;
+    }
+    /*doctor detail*/
+    
+    .doctor-detail {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .detail {
+        height: 40vh;
+        background-color: #f5f8f9;
+    }
+    
+    .doctor-detail .detail h1 {
+        width: 100vw;
+        height: 10vh;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #e94d00;
+        text-align: center;
+        justify-content: center;
+        padding: 1px 0px;
+    }
+    
+    .doctor-detail .detail p {
+        width: 100vw;
+        font-weight: 900;
+        font-size: 3rem;
+        color: black;
+        text-align: center;
+        padding: 1px 0px;
+        height: 15vh;
+    }
+    
+    .doc-image {
+        height: 30vh;
+        width: 100vw;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .doc-image img {
+        height: 290px;
+        width: 280px;
+        border-radius: 151px;
+        margin: -76px 603px;
+    }
+    
+    .describe {
+        height: 40vh;
+        width: 100vw;
+    }
+    
+    .describe h3 {
+        color: black;
+        margin: 75px 660px;
+        font-size: 22px;
+    }
+    
+    .describe p {
+        height: 10vh;
+        width: 100vw;
+        height: 10vh;
+        margin-top: -65px;
+        width: 100vw;
+        font-size: 25px;
+        color: grey;
+        padding: 0px 470px;
+    }
+    /*boxes design*/
+    
+    .box {
+        height: 75vh;
+        width: 100vw;
+        display: flex;
+        background-color: whitesmoke;
+    }
+    
+    .image {
+        height: 20vw;
+        width: 50%;
+        padding: 2vw 14vw;
+    }
+    
+    .image img {
+        height: 18vw;
+        border: 2px solid black;
+    }
+    
+    .contain {
+        height: 20vw;
+        width: 50%;
+        padding: 3vw 3vw;
+        border: 1px solid black;
+        margin-top: 30px;
+    }
+    
+    .contain p {
+        height: 5vw;
+    }
+    
+    .contain h1 {
+        font-size: 3rem;
+        line-height: 5rem;
+        text-align-last: center;
+    }
+    
+    .contain h3 {
+        font-size: 2rem;
+    }
+    
+    .contain p {
+        font-size: 20px;
+        padding-top: 28px;
+    }
+    
+    .main-manu {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+    }
+    
+    .map {
+        margin: 1vw;
+        width: 50vw;
+        height: 73vh;
+        padding: 4vw;
+    }
+    
+    .map h1 {
+        margin-top: -2vw;
+        width: 44vw;
+        background-color: #f6fffe;
+        color: rgb(221, 130, 33);
+        box-shadow: 2px 2px 2px black;
+    }
+    
+    iframe {
+        margin-top: 1vw;
+        width: 44vw;
+        height: 80vh;
+        border: 2px solid black;
+    }
+    
+    .frame {
+        margin: 1vw;
+        width: 50vw;
+        height: 73vh;
+        padding: 4vw 0vw;
+    }
+    
+    .frame h1 {
+        margin-top: -2vw;
+        width: 44vw;
+        background-color: #f6fffe;
+        color: rgb(221, 130, 33);
+        box-shadow: 2px 2px 2px black;
+    }
+    
+    form {
+        background-color: rgb(175 185 187 / 20%);
+        margin-top: 1vw;
+        width: 44vw;
+        height: 80vh;
+        border: 2px solid black;
+    }
+    
+    form h2 {
+        padding: 0vw 1vw;
+        font-size: 2rem;
+        text-align: center;
+        color: rgb(221, 130, 33);
+    }
+    
+    .label {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0 1vw;
+        color: #e59620;
+    }
+    
+    input {
+        height: 39px;
+        margin: 9px;
+        width: 212px;
+        margin: 44px;
+    }
+    
+    .sub {
+        width: 131px;
+        height: 53px;
+        margin: 0px 40px;
+        background-color: #e54904;
+        padding: 0px 0vw;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+    /* footer desig*/
+    
+    footer {
+        height: 50vh;
+        width: 100vw;
+        background-color: #161e54;
+        background-size: cover;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    footer .end-part {
+        height: 50vh;
+        width: 30vw;
+        margin: 45px 87px;
+        color: white;
+    }
+    
+    .end-part ul {
+        font-weight: 300;
+        font-size: 2rem;
+        color: orange;
+    }
+    
+    .end-part li {
+        list-style: none;
+    }
+    
+    .foot-img {
+        height: 100px;
+        width: 100px;
+        margin: 53px 150px;
+    }
+    
+    footer p {
+        color: white;
+        margin: 97px 6px;
+    }
+    
+    @media (max-width:952px) {
+        .right #logo {
+            font-size: 30px;
+            padding-left: 50px;
+        }
+        nav ul li a {
+            font-size: 16px;
+        }
+        .heading {
+            height: 43px;
+            margin: 32px 0px;
+            position: fixed;
+        }
+        .heading h1 {
+            padding: 0 40vw;
+        }
+        .treatment {
+            width: 100vw;
+            height: 80vh;
+        }
+        .treatment .easy-steps {
+            font-size: 2rem;
+        }
+        .card-container .easy-card {
+            height: 68vh;
+            width: 20vw;
+            margin: 14px;
+        }
+        .treatment .card-container {
+            height: 30vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 20px solid rgb(239, 231, 231)
+        }
+        .easy-card h1 {
+            font-size: 1rem;
+        }
+        .about {
+            height: 80vh;
+            width: 100vw;
+            display: flex;
+        }
+        .about .about-left {
+            height: 80vh;
+            width: 50vw;
+        }
+        .about-left img {
+            height: 68vh;
+            width: 43vw;
+            margin: 93px 81px
+        }
+        .about .about-right {
+            height: 80vh;
+            width: 50vw;
+        }
+        .about-right h1 {
+            margin: 99px 51px;
+            font-size: 20px;
+        }
+        .about-right p {
+            margin: -98px 43px;
+            font-size: 10px;
+        }
+        .appoint {
+            height: 50px;
+            margin: 109px 77px;
+            width: 154px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+        .service {
+            width: 100vw;
+            height: 120vh;
+            background-color: #f5f8f9;
+        }
+        .service .service-head {
+            width: 100vw;
+            height: 10vh;
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: #e94d00;
+            text-align: center;
+            justify-content: center;
+            padding: 1px 0px;
+        }
+        .service .service-steps {
+            width: 100vw;
+            font-weight: 900;
+            font-size: 3rem;
+            color: black;
+            text-align: center;
+            padding: 1px 0px;
+            height: 15vh;
+        }
+        .service-container .service-card {
+            height: 40vh;
+            width: 20vw;
+            margin: 14px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 3px 6px 3px rgb(239, 231, 231);
+            border: 2px solid rgb(251, 248, 248);
+            cursor: pointer;
+            background-color: white;
+        }
+        .service .service-container {
+            height: 45vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 20px solid rgb(239, 231, 231)
+        }
+        .service-card h1 {
+            font-size: 1.7rem;
+            font-weight: bolder;
+            margin-top: 15px;
+            color: #323241;
+        }
+        .service-card p {
+            font-size: 1rem;
+            margin-top: 10px;
+            color: grey;
+        }
+        .card-img-top {
+            height: 74px;
+            width: 71px;
+            margin-top: 32px;
+        }
+        .service-card:hover {
+            background-color: #dc5816;
+            color: white;
+        }
+    }
+    
+    @media (max-width:480px) {
+        .checkbtn {
+            display: block;
+        }
+        nav {
+            height: 8vw;
+            width: 140vw;
+            background-color: #e54904;
+        }
+        ul {
+            position: fixed;
+            top: 180px;
+            width: 70%;
+            height: 100vh;
+            background-color: black;
+            left: -100%;
+            text-align: center;
+            /* display: none; */
+            transition: 1s;
+        }
+        nav ul li {
+            display: block;
+            margin: 50px 0;
+            line-height: 30px;
+        }
+        nav ul li a {
+            font-size: 20px;
+        }
+        a:hover,
+        a.active {
+            background: none;
+            color: palevioletred;
+            transition: all .5s;
+        }
+        #check:checked~ul {
+            /* display: block; */
+            left: 0;
+        }
+        form .label {
+            font-size: 10px;
+            font-weight: bold;
+            padding: 1px;
+        }
+        .card {
+            height: 30vh;
+            width: 20vw;
+            border-radius: 20px;
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+        }
+    }
